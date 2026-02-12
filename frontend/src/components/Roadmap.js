@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckCircle2, Circle, ArrowRightCircle } from 'lucide-react';
+import { CheckCircle2,  ArrowRightCircle } from 'lucide-react';
 
 const Roadmap = ({ steps }) => {
   if (!steps || steps.length === 0) return null;

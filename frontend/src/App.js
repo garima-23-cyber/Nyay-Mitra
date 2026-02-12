@@ -4,7 +4,7 @@ import SplashScreen from './components/SplashScreen';
 import Header from './components/Header';
 import FileUpload from './components/FileUpload';
 import ResultDisplay from './components/ResultDisplay';
-import Summary from './components/Summary'; // Explicitly imported
+
 
 function App() {
   const [loadingApp, setLoadingApp] = useState(true);
