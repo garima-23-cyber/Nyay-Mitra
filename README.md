@@ -31,9 +31,10 @@
 
 ## 📸 Project Gallery
 
-| 📤 Document Upload | 🧠 AI Analysis & Roadmap | 🌐 Bilingual Summary |
-| :---: | :---: | :---: |
-| ![home Screen]("C:\Users\garim\Pictures\Screenshots\Screenshot 2026-02-12 120326.png") |![Upload Screen]("C:\Users\garim\Pictures\Screenshots\Screenshot 2026-02-12 120348.png")| ![Analysis Screen]("C:\Users\garim\Pictures\Screenshots\Screenshot 2026-02-12 120518.png") | ![Summary Screen]("C:\Users\garim\Pictures\Screenshots\Screenshot 2026-02-12 120545.png") |
+| 📤 Home Screen | 📄 Document Upload | 🧠 AI Analysis & Roadmap | 🌐 Bilingual Summary |
+| :---: | :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/b2962fa7-2d9b-42f8-8109-e3a398308041" width="250"/> | <img src="https://github.com/user-attachments/assets/11122a50-ba16-46b1-a0af-cdb322e8b941" width="250"/> | <img src="https://github.com/user-attachments/assets/0501c246-79ef-4f19-aed7-0a733f38f3d0" width="250"/> | <img src="https://github.com/user-attachments/assets/3e1c8ca7-4c15-40bc-9a54-a0304b95377c" width="250"/> |
+
 
 ---
 
@@ -65,3 +66,16 @@
 ### 🔧 Backend Setup
 ```bash
 cd backend
+
+GEMINI_API_KEY=your_key_here
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+
+cd frontend
+
+REACT_APP_API_URL=http://localhost:8000
+npm install
+npm start
+
+
+
