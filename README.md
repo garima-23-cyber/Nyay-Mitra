@@ -31,7 +31,7 @@
 
 ## 📸 Project Gallery
 
-| 📤 Home Screen | 📄 Document Upload | 🧠 AI Analysis & Roadmap | 🌐 Bilingual Summary |
+| 📤 Home Screen | 📄 Document Upload | 🧠 AI Analysis  | 🌐 Bilingual Summary & Roadmap |
 | :---: | :---: | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/b2962fa7-2d9b-42f8-8109-e3a398308041" width="250"/> | <img src="https://github.com/user-attachments/assets/11122a50-ba16-46b1-a0af-cdb322e8b941" width="250"/> | <img src="https://github.com/user-attachments/assets/0501c246-79ef-4f19-aed7-0a733f38f3d0" width="250"/> | <img src="https://github.com/user-attachments/assets/3e1c8ca7-4c15-40bc-9a54-a0304b95377c" width="250"/> |
 
