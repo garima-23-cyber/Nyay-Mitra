@@ -77,5 +77,10 @@ REACT_APP_API_URL=http://localhost:8000
 npm install
 npm start
 
+## Contributors
+- Garima
+- Saumya Dwivedi
+
+
 
 
