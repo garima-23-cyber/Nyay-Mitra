@@ -3,25 +3,55 @@
 @tailwind utilities;
 
 @layer utilities {
+  /* 3D Perspective */
   .perspective-1000 {
     perspective: 1000px;
   }
   
+  /* Loading Bar Animation */
+  @keyframes loading {
+    0% { left: -100%; }
+    100% { left: 100%; }
+  }
+
+  /* Pop In Animation for Splash Icons */
   @keyframes popOut {
     0% { transform: translateZ(-1000px) scale(0.5); opacity: 0; }
     100% { transform: translateZ(0) scale(1); opacity: 1; }
   }
 
+  /* Smooth Exit for Splash Screen */
   @keyframes screenExit {
     0% { transform: scale(1); opacity: 1; }
     100% { transform: scale(1.5); opacity: 0; visibility: hidden; }
   }
 
+  /* Slow Rotation for AI CPU Icon */
+  @keyframes spin-slow {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+  /* Utility Classes to trigger the animations */
   .animate-pop-out {
     animation: popOut 1.5s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
   }
   
   .animate-screen-exit {
     animation: screenExit 0.8s ease-in forwards;
+  }
+
+  .animate-spin-slow {
+    animation: spin-slow 8s linear infinite;
+  }
+
+  /* Fade-in for overall page content */
+  .animate-fade-in {
+    animation: fadeIn 1s ease-out forwards;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
   }
 }
