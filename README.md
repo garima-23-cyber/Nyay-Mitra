@@ -4,7 +4,7 @@
 **NyayMitra (Justice Friend)** is a **production-grade legal-tech platform** built to bridge the gap between **complex legal language** and **everyday citizens**.  
 It empowers users with **instant, bilingual legal intelligence**, **actionable judicial roadmaps**, and **accessibility-first design**, tailored specifically for the **Indian legal ecosystem**.
 
-> ⚠️ *NyayMitra is an AI-powered informational assistant and does not constitute formal legal advice.*
+
 
 ---
 
