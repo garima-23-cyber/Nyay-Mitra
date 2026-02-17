@@ -7,6 +7,7 @@ import FileUpload from './components/FileUpload';
 import ResultDisplay from './components/ResultDisplay';
 import RightsEncyclopedia from './components/RightsEncyclopedia'; // Import these
 import ProcessWorkspace from './components/ProcessWorkspace';     // new components
+import Footer from './components/Footer';
 
 function App() {
   const [loadingApp, setLoadingApp] = useState(true);
@@ -71,11 +72,7 @@ function App() {
       </main>
 
       {/* Elegant Footer */}
-      <footer className="py-8 border-t border-gold/10 text-center">
-        <p className="text-[10px] text-silver/20 uppercase tracking-[0.5em]">
-          NyayMitra Intelligence • AI-Powered Legal Equity • 2026
-        </p>
-      </footer>
+      <Footer/>
     </div>
   );
 }
