@@ -1,117 +1,136 @@
-# ⚖️ NyayMitra — AI-Powered Legal Intelligence System  
-### *Justice, Simplified. Rights, Empowered.*
+# ⚖️ NyayMitra – AI-Powered Legal Intelligence System  
+### *“Justice, simplified. Access, amplified.”* 🤝🇮🇳
 
-**NyayMitra (Justice Friend 🤝)** is a **production-grade legal-tech platform** built to bridge the gap between **complex legal jargon and everyday citizens**. It empowers users with **instant, bilingual legal intelligence**, structured judicial roadmaps, and accessibility-first safeguards tailored to the Indian legal ecosystem.
+**NyayMitra (Justice Friend)** is a **production-grade legal-tech platform** built to bridge the gap between **complex legal language** and **everyday citizens**.  
+It empowers users with **instant, bilingual legal intelligence**, **actionable judicial roadmaps**, and **accessibility-first design**, tailored specifically for the **Indian legal ecosystem**.
 
-Powered by **:contentReference[oaicite:0]{index=0} 2.0 Flash**, NyayMitra transforms raw legal documents into **clear explanations, actionable next steps, and citizen-centric rights awareness**.
-
----
-
-## 🚀 Live Links
-- 🌐 **Web Interface:** https://nyay-mitra-frontend.vercel.app/  
-- ⚙️ **API Engine:** https://nyay-mitra-backend.onrender.com/
+> ⚠️ *NyayMitra is an AI-powered informational assistant and does not constitute formal legal advice.*
 
 ---
 
-## ✨ Core Features
+## 🚀 Live Deployment
 
-### 📑 Multimodal Legal Document Extraction
-Upload **high-resolution PDFs or images** of legal documents and instantly receive structured insights.  
-✔ No manual OCR  
-✔ Native vision understanding  
-✔ Works with scanned & photographed documents  
+🌐 **Web Interface:**  
+👉 https://nyay-mitra-frontend.vercel.app/
+
+⚙️ **Backend API:**  
+👉 https://nyay-mitra-backend.onrender.com/
+
+---
+
+## ✨ Core Capabilities
+
+### 📑 Multimodal Legal Document Intelligence
+- Upload **high-resolution PDFs or images**
+- Native vision understanding (no manual OCR)
+- Handles notices, FIRs, contracts, affidavits & court documents
 
 ---
 
 ### 🌍 Neural Bilingual Legal Engine
-All outputs are generated in:
-- 🇬🇧 **English**
-- 🇮🇳 **Sahaj (Simple) Hindi**
-
-Designed specifically for **Indian legal, cultural, and linguistic contexts**.
+- Outputs in **English + Sahaj Hindi**
+- Context-aware phrasing for Indian users
+- Designed for clarity, not courtroom jargon
 
 ---
 
-### 🧭 Judicial Roadmaps & Timelines
-Transforms confusion into clarity by generating:
-- Step-by-step procedural guidance  
-- Case-specific timelines  
-- Legal complexity analysis (**Low / Medium / High**)  
+### 🧭 Judicial Roadmap & Timeline Generator
+- Step-by-step **legal action roadmap**
+- Estimated **procedural timelines**
+- Case **complexity classification**: 🟢 Low | 🟡 Medium | 🔴 High
 
 ---
 
-### 🔍 Rights Encyclopedia (NEW ⭐)
-A dedicated **citizen-rights intelligence layer** covering:
-- 🏛️ **Bharatiya Nyaya Sanhita (BNS)**
-- 📜 **Indian Constitution**
-
-Features:
-- Real-time debounced search  
-- Simplified explanations (no legal jargon)  
-- Contextual warnings & safeguards  
-- Citizen-first interpretation of rights and protections  
+### 🔍 Rights Encyclopedia (BNS + Constitution)
+- Real-time search for **citizen protections**
+- Fully aligned with **Bharatiya Nyaya Sanhita (BNS)**
+- Covers rights, sections, safeguards & obligations
 
 ---
 
 ### 🔊 Accessibility-First Design
-- 🔈 **Bilingual Text-to-Speech (TTS)**
-- Enables users to *listen* to legal summaries and rights
-- Designed for inclusivity across literacy levels  
+- **Bilingual Text-to-Speech (TTS)**
+- Designed for inclusivity & low-literacy access
+- Mobile-friendly and assistive-tech ready
 
 ---
 
 ## 📸 Project Gallery
 
-**🏛️ Dashboard UI**  **📤 Smart Upload**  **🧠 AI Logic & Legal Roadmap**  **🧭Rigths**   **🧭Footer**
+### 🏛️ Dashboard UI  
+🔗 **Direct View:** https://nyay-mitra-frontend.vercel.app/
 
-<p align="center">
-  <img width="1900" height="827" alt="Screenshot 2026-02-17 131614" src="https://github.com/user-attachments/assets/1eea913c-d3c6-4eca-af21-8c8e0421b881" />
-  <img width="1902" height="876" alt="Screenshot 2026-02-17 131704" src="https://github.com/user-attachments/assets/26a15ef3-fefa-4a8b-9bbd-e6e9f9e1f955" />
-  <img width="1898" height="872" alt="Screenshot 2026-02-17 131811" src="https://github.com/user-attachments/assets/37617fef-5cbb-4e9f-9639-a9a0e8ecb416" />
-  <img width="1900" height="863" alt="Screenshot 2026-02-17 131504" src="https://github.com/user-attachments/assets/603d3589-65a3-4d9f-94da-beaa7ca5223c" />
-  <img width="1899" height="624" alt="Screenshot 2026-02-17 132027" src="https://github.com/user-attachments/assets/0252b4ef-e2ee-4a8a-9e1c-55decf6fcb2d" />
-</p>
+<img width="1900" height="827" alt="Screenshot 2026-02-17 131614" src="https://github.com/user-attachments/assets/1eea913c-d3c6-4eca-af21-8c8e0421b881" />
+
+---
+
+### 📤 Smart Upload  
+🔗 **Document Upload Flow:** https://nyay-mitra-frontend.vercel.app/
+
+<img width="1902" height="876" alt="Screenshot 2026-02-17 131704" src="https://github.com/user-attachments/assets/26a15ef3-fefa-4a8b-9bbd-e6e9f9e1f955" />
+
+---
+
+### 🧠 AI Logic & Legal Roadmap  
+🔗 **AI Analysis Engine:** https://nyay-mitra-frontend.vercel.app/
+
+<img width="1898" height="872" alt="Screenshot 2026-02-17 131811" src="https://github.com/user-attachments/assets/37617fef-5cbb-4e9f-9639-a9a0e8ecb416" />
+
+---
+
+### 🧭 Rights Encyclopedia  
+🔗 **Rights Search:** https://nyay-mitra-frontend.vercel.app/
+
+<img width="1900" height="863" alt="Screenshot 2026-02-17 131504" src="https://github.com/user-attachments/assets/603d3589-65a3-4d9f-94da-beaa7ca5223c" />
+
+---
+
+### 🦶 Footer & Accessibility  
+🔗 **Footer & Navigation:** https://nyay-mitra-frontend.vercel.app/
+
+<img width="1899" height="624" alt="Screenshot 2026-02-17 132027" src="https://github.com/user-attachments/assets/0252b4ef-e2ee-4a8a-9e1c-55decf6fcb2d" />
 
 ---
 
 ## 🛠️ Technical Uniqueness
 
-### 🛡️ Resilient AI API Architecture
-Optimized to handle **Gemini Free Tier (15 RPM)** limitations gracefully:
+### 🛡️ Resilient API Architecture (Gemini Free-Tier Safe)
 
-- **Global Async Locking**  
-  Backend semaphore queues requests to prevent API crowding  
+To operate reliably under the **15 RPM quota**, NyayMitra implements:
 
-- **Exponential Backoff Strategy**  
-  Automatically handles `429 Resource Exhausted` errors  
+- **🔐 Global Async Locking**  
+  Backend semaphore queues requests safely
 
-- **Frontend Debouncing**  
-  Limits search triggers to **1 request per second**  
+- **🔁 Exponential Backoff**  
+  Smart retries on `429 Resource Exhausted` errors
+
+- **⏱️ Frontend Debouncing**  
+  Prevents accidental API flooding (1 req/sec)
 
 ---
 
 ### 🎨 Premium Aesthetic UI
-- Glassmorphism dark theme with gold accents ✨  
-- Smooth micro-interactions using Framer Motion  
-- Responsive, distraction-free navigation  
-- Fully **BNS-compliant logic** reflecting latest Indian penal reforms  
+- ✨ Glassmorphism dark theme with gold accents
+- 🎞️ Framer Motion micro-interactions
+- 📱 Fully responsive, mobile-first layout
+- ⚖️ **BNS-compliant legal logic**
 
 ---
 
 ## 💻 Tech Stack
 
-### Frontend
+### 🖥️ Frontend
 - React.js  
 - Tailwind CSS  
 - Framer Motion  
 - Lucide-React  
 
-### Backend
+### ⚙️ Backend
 - FastAPI (Python)  
 - AsyncIO  
 - Google GenAI SDK  
 
-### DevOps
+### 🚀 DevOps
 - GitHub Actions  
 - Render (Backend)  
 - Vercel (Frontend)  
@@ -124,13 +143,20 @@ Optimized to handle **Gemini Free Tier (15 RPM)** limitations gracefully:
 ```bash
 cd backend
 pip install -r requirements.txt
-# Create .env with GEMINI_API_KEY
+
+# Create .env
+GEMINI_API_KEY=your_api_key_here
+
 uvicorn app.main:app --reload
 
 cd frontend
 npm install
-# Create .env with REACT_APP_API_URL
+
+# Create .env
+REACT_APP_API_URL=backend_url_here
+
 npm start
----
+
 🤝 Connect with the Developer
+
 👩‍💻 Garima
