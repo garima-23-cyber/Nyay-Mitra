@@ -1,79 +1,130 @@
-# ⚖️ NyayMitra: AI-Powered Legal Document Assistant
+⚖️ NyayMitra — AI-Powered Legal Intelligence System
 
-**NyayMitra** (Justice Friend) 🤝 is a full-stack legal-tech solution designed to bridge the gap between complex legal jargon and common citizens. It leverages **Gemini 2.0 Flash-Lite** to deliver instant, bilingual (English & Sahaj Hindi) legal insights with actionable roadmaps and audio summaries 🎧📄.
+Justice, Simplified. Rights, Amplified.
 
----
+NyayMitra (Justice Friend 🤝) is a production-grade legal-tech platform built to democratize access to justice in India. It translates dense legal language into clear, actionable, bilingual guidance using cutting-edge AI — empowering citizens to understand their rights without intimidation or intermediaries.
 
-## 🚀 Live Demo
-- 🌐 **Frontend:** [https://nyay-mitra-frontend.vercel.app/]
-- ⚙️ **Backend API:** [https://nyay-mitra-backend.onrender.com]
+Powered by Google Gemini 2.0 Flash, NyayMitra delivers instant legal insights, structured judicial roadmaps, and accessibility-first experiences for real-world legal awareness.
 
----
+🚀 Live Demo
 
-## ✨ Features
+🌐 Web App: https://nyay-mitra-frontend.vercel.app/
 
-- 📑 **Multimodal Legal Analysis**  
-  Processes PDFs and images of legal documents using Gemini 2.0’s native multimodal capabilities.
+⚙️ API Engine: https://nyay-mitra-backend.onrender.com/
 
-- 🌍 **Bilingual Output**  
-  Provides summaries and procedural steps in both **English** and **Simplified Hindi (Sahaj Hindi)**.
+✨ Key Capabilities
+📑 Multimodal Legal Document Intelligence
 
-- 🧭 **Interactive Legal Roadmap**  
-  Generates a step-by-step strategic guide tailored to the uploaded document.
+Upload PDFs or images of legal documents and receive structured insights instantly — no manual OCR, no preprocessing. Native vision understanding ensures accuracy even with scanned or photographed documents.
 
-- 🔊 **Text-to-Speech (TTS)**  
-  Includes bilingual audio summaries for enhanced accessibility.
+🌍 Neural Bilingual Legal Engine
 
-- 🛠️ **Resilient Architecture**  
-  Dual-model fallback system (**Flash 2.0 → Flash 1.5**) with smart rate-limiting handling.
+All summaries, warnings, and next steps are generated in:
 
----
+🇬🇧 English
 
-## 📸 Project Gallery
+🇮🇳 Sahaj (Simple) Hindi
+Designed specifically for Indian legal and linguistic contexts.
 
-| 📤 Home Screen | 📄 Document Upload | 🧠 AI Analysis  | 🌐 Bilingual Summary & Roadmap |
-| :---: | :---: | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/b2962fa7-2d9b-42f8-8109-e3a398308041" width="250"/> | <img src="https://github.com/user-attachments/assets/11122a50-ba16-46b1-a0af-cdb322e8b941" width="250"/> | <img src="https://github.com/user-attachments/assets/0501c246-79ef-4f19-aed7-0a733f38f3d0" width="250"/> | <img src="https://github.com/user-attachments/assets/3e1c8ca7-4c15-40bc-9a54-a0304b95377c" width="250"/> |
+🧭 Judicial Roadmaps & Timelines
 
+Transforms legal confusion into clarity with:
 
----
+Step-by-step procedural guidance
 
-## 🛠️ Tech Stack
+Case-specific timelines
 
-### 🎨 Frontend
-- ⚛️ React.js (Functional Components & Hooks)
-- 🎨 Tailwind CSS (Legal-themed UI)
-- 🧩 Lucide-React (Iconography)
-- 🔗 Axios (API Communication)
+Complexity classification (Low / Medium / High)
 
-### ⚙️ Backend
-- ⚡ FastAPI (Python)
-- 🤖 Google GenAI SDK (Native Gemini Integration)
-- 🔄 AsyncIO (Non-blocking processing)
-- 📋 Pydantic (Data validation)
+🔍 Rights Encyclopedia (BNS + Constitution)
 
----
+A real-time, debounced legal search system covering:
 
-## ⚙️ Installation & Setup
+Bharatiya Nyaya Sanhita (BNS)
 
-### ✅ Prerequisites
-- 🐍 Python 3.10+
-- 🟢 Node.js & npm
-- 🔑 Gemini API Key (Google AI Studio)
+Indian Constitutional Rights
+Optimized for speed, accuracy, and citizen-centric explanations.
 
----
+🔊 Accessibility-First Design
 
-### 🔧 Backend Setup
-```bash
+Integrated Bilingual Text-to-Speech (TTS) enables users to listen to their rights and legal summaries — ensuring inclusivity for all literacy levels.
+
+📸 Project Gallery
+
+🏛️ Dashboard UI  📤 Smart Upload  🧠 AI Logic  🧭 Legal Roadmap
+
+<img src="https://github.com/user-attachments/assets/b2962fa7-2d9b-42f8-8109-e3a398308041" width="240"/> <img src="https://github.com/user-attachments/assets/11122a50-ba16-46b1-a0af-cdb322e8b941" width="240"/> <img src="https://github.com/user-attachments/assets/0501c246-79ef-4f19-aed7-0a733f38f3d0" width="240"/> <img src="https://github.com/user-attachments/assets/3e1c8ca7-4c15-40bc-9a54-a0304b95377c" width="240"/>
+🛠️ Engineering Highlights (What Makes It Special)
+🛡️ Resilient AI API Architecture
+
+Built to operate smoothly under Gemini Free Tier (15 RPM) constraints:
+
+Global Async Semaphore – Queues concurrent requests safely
+
+Exponential Backoff Strategy – Auto-handles 429 Resource Exhausted errors
+
+Frontend Debouncing – Prevents accidental API spamming (1 request/sec)
+
+🎨 Premium UI / UX
+
+Glassmorphism dark UI with gold accents ✨
+
+Smooth micro-interactions via Framer Motion
+
+Responsive, distraction-free navigation
+
+Fully BNS-compliant logic reflecting current Indian penal reforms
+
+💻 Tech Stack
+
+Frontend
+
+React.js
+
+Tailwind CSS
+
+Framer Motion
+
+Lucide-React
+
+Backend
+
+FastAPI (Python)
+
+AsyncIO
+
+Google GenAI SDK
+
+DevOps
+
+GitHub Actions
+
+Render (Backend)
+
+Vercel (Frontend)
+
+⚙️ Setup & Installation
+🔧 Backend
 cd backend
-
-GEMINI_API_KEY=your_key_here
 pip install -r requirements.txt
+# Create .env with GEMINI_API_KEY
 uvicorn app.main:app --reload
 
+🎨 Frontend
 cd frontend
+npm install
+# Create .env with REACT_APP_API_URL
+npm start
 
-REACT_APP_API_URL=http://localhost:8000
+🤝 Connect with the Developer
+
+👩‍💻 Garima
+
+LinkedIn
+
+GitHub
+
+Instagram
 npm install
 npm start
 
